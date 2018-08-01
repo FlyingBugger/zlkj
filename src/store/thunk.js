@@ -15,6 +15,11 @@ const reducer=(state=initState,action)=>{
     case "FETCH":
       return {state:'yes'} //{...state,data:action.data}
       break;
+    case "sagaCommit":
+        return {state:'saga'} //{...state,data:action.data}
+      break;
+
+
     default:
 
   }
